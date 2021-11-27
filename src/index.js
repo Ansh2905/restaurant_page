@@ -1,8 +1,9 @@
 import displayHome from "./home";
-import displayContact from "./contact";
+/*import displayMenu from "./menu";*/
 
 function createNavigationBar()
 {
+    console.log("herll");
     let nav = document.createElement('nav');
     nav.id = "navigation-bar";
     let title = document.createElement('div');
