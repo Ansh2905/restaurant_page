@@ -1,9 +1,8 @@
 import displayHome from "./home";
-/*import displayMenu from "./menu";*/
+import displayContact from "./contact";
 
 function createNavigationBar()
 {
-    console.log("herll");
     let nav = document.createElement('nav');
     nav.id = "navigation-bar";
     let title = document.createElement('div');
@@ -36,4 +35,4 @@ function createNavButton()
 
 let content = document.querySelector('#content');
 content.appendChild(createNavigationBar());
-content.appendChild(displayHome());
+content.appendChild(displayContact());

@@ -39,5 +39,5 @@ function createParagraph(sentence)
     return paragraph;
 }
 
-/*export {createParagraph as createParagraph};*/
+export {createParagraph as createParagraph};
 export default displayHome;
