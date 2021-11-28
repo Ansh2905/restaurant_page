@@ -1,5 +1,6 @@
 import displayHome from "./home";
 import displayContact from "./contact";
+import displayMenu from "./menu";
 
 function createNavigationBar()
 {
@@ -10,7 +11,7 @@ function createNavigationBar()
     let menuButton = createNavButton();
     let contactButton = createNavButton();
     title.id = 'title';
-    title.textContent = "Abdu's Burgirs";
+    title.textContent = "Ansh's Fast Food";
     homeButton.textContent = "Home";
     menuButton.textContent = "Menu";
     contactButton.textContent = "Contact Us";
@@ -35,4 +36,4 @@ function createNavButton()
 
 let content = document.querySelector('#content');
 content.appendChild(createNavigationBar());
-content.appendChild(displayContact());
+content.appendChild(displayMenu());
