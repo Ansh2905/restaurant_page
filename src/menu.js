@@ -17,6 +17,7 @@ function displayMenu()
 {
     let menu = document.createElement('div');
     menu.classList.add('menu');
+    menu.classList.add('fullPage');
     menu.appendChild(menuCard("icons/pizza.svg", "Pizza"));
     menu.appendChild(menuCard("icons/burger.svg", "Burger"));
     menu.appendChild(menuCard("icons/fries.svg", "French Fries"));

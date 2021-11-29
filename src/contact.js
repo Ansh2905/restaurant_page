@@ -2,7 +2,6 @@ import { createParagraph } from "./home";
  
 function displayContact()
 {
-    console.log("rdfvfd");
    let contactDisplay = document.createElement('div');
    contactDisplay.classList.add('fullPage');
    contactDisplay.appendChild(createInfoSection());

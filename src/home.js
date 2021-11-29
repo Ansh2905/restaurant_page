@@ -18,7 +18,7 @@ function createHomeIntro()
     homeIntro.appendChild(createParagraph("The best fast-food you've tasted !"));
     homeIntro.appendChild(burgerPic);
     homeIntro.appendChild(createParagraph("Established in 2021"));
-    homeIntro.appendChild(createParagraph("Created in Russia"));
+    homeIntro.appendChild(createParagraph("Created in Canada"));
     return homeIntro;
 }
 
