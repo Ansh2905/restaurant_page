@@ -1,0 +1,1 @@
+This is a fast-food restaurant website created using HTML, CSS and Javascript. The website can be found here: https://ansh2905.github.io/restaurant_page/dist/
