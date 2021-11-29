@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: goldleaf;
-    src: url(nice-year-font/Niceyear-mLZ59.ttf);
+    font-family: rondal;
+    src: url(rondal-font/RondalBold-2O4lW.otf);
 }
 
 #title
@@ -51,7 +51,7 @@
 .navigation-button
 {
     color: white;
-    font-family: goldleaf;
+    font-family: rondal;
     font-size: 25px;
     height: 50px;
     background-color: transparent;
@@ -83,7 +83,7 @@
 .pageSection
 {
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.85;
     margin-top: 50px;
     margin-bottom: 20px;
     width: 60vw;
@@ -113,7 +113,7 @@
     justify-content: center;
     color: white;
     font-size: 35px;
-    font-family: goldleaf;
+    font-family: rondal;
     margin-top: 20px;
 }
 
@@ -142,7 +142,7 @@
     margin: 50px;
     color: white;
     font-size: 30px;
-    font-family: goldleaf;
+    font-family: rondal;
 }
 
 .card-pic
